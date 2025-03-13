@@ -117,24 +117,54 @@
                 <div class="flex flex-col">
                     <label for="gyumolcs-neve">Gyümölcs neve:</label>
                     <select name="" id="gyumolcs-neve">
-                        <option value="Válasszon egy gyümölcsöt"></option>
+                        <option value="-1">Válasszon egy gyümölcsöt!</option>
                     </select>
                 </div>
                 <div class="flex flex-col">
                     <label for="mennyiseg">Mennyiség:</label>
                     <input type="text" value="1" min="1">
                 </div>
+            </form>
                 
                 <div>
-                    <button>Számítás</button>
+                    <button id="szamitas">Számítás</button>
                     <button>Visszaállítás</button>
                 </div>
                 
-            </form>
+
+                <div id="warning" class="bg-red-300 border-red-400 border-1 rounded-md p-4 my-2">
+                    <p>asd</p>
+                </div>
+                
+                <div class="text-white flex gap-4 align-center">
+                    <div class="bg-green rounded-[10px] py-4 w-[100px] flex items-center justify-center">
+                        <h3>Zsír</h3>
+                        <p id="zsir"></p>
+                    </div>
+
+                    <div class="bg-blue rounded-[10px] py-4 w-[100px] flex items-center justify-center">
+                        <h3>Rost</h3>
+                        <p id="rost"></p>
+                    </div>
+                    <div class="bg-turkiz rounded-[10px] py-4 w-[100px] flex items-center justify-center">
+                        <h3>Kalória</h3>
+                        <p id="kaloria"></p>
+                    </div>
+                    <div class="bg-purple rounded-[10px] py-4 w-[100px] flex items-center justify-center">
+                        <h3>Fehérje</h3>
+                        <p id="feherje"></p>
+                    </div>
+                    <div class="bg-red rounded-[10px] py-4 w-[100px] flex items-center justify-center">
+                        <h3>Szénhidrát</h3>
+                        <p id="szenhidrat"></p>
+                    </div>
+                </div>
+            
 
         </section>
         
     </main>
+    <script src="js/data.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
