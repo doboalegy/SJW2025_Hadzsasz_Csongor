@@ -1,0 +1,21 @@
+h1 {
+    font-variant: small-caps;
+    text-shadow: 2px 2px 3px black;
+
+    border: 10px double white;
+}
+
+h2 {
+    font-family: 'Heattenschweiler' sans-serif;
+    letter-spacing: 1.5px;
+}
+
+nav li:hover {
+    border-top: 3px double white;
+    border-bottom: 3px double white;
+}
+
+tbody tr:nth-child(odd)
+{
+    background-color: rgb(2 138 158 / .2);
+}
