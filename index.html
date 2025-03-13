@@ -122,39 +122,39 @@
                 </div>
                 <div class="flex flex-col">
                     <label for="mennyiseg">Mennyiség:</label>
-                    <input type="text" value="1" min="1">
+                    <input type="text" id="mennyiseg" value="1" min="1">
                 </div>
             </form>
                 
                 <div>
                     <button id="szamitas">Számítás</button>
-                    <button>Visszaállítás</button>
+                    <button id="visszaallitas">Visszaállítás</button>
                 </div>
                 
 
-                <div id="warning" class="bg-red-300 border-red-400 border-1 rounded-md p-4 my-2">
-                    <p>asd</p>
+                <div id="warning" class="bg-red-300 border-red-400 border-1 rounded-md p-4 my-2 hidden">
+                    <p></p>
                 </div>
                 
                 <div class="text-white flex gap-4 align-center">
-                    <div class="bg-green rounded-[10px] py-4 w-[100px] flex items-center justify-center">
+                    <div class="bg-green rounded-[10px] py-4 w-[100px] flex flex-col items-center justify-center">
                         <h3>Zsír</h3>
                         <p id="zsir"></p>
                     </div>
 
-                    <div class="bg-blue rounded-[10px] py-4 w-[100px] flex items-center justify-center">
+                    <div class="bg-blue rounded-[10px] py-4 w-[100px] flex  flex-col items-center justify-center">
                         <h3>Rost</h3>
                         <p id="rost"></p>
                     </div>
-                    <div class="bg-turkiz rounded-[10px] py-4 w-[100px] flex items-center justify-center">
+                    <div class="bg-turkiz rounded-[10px] py-4 w-[100px] flex flex-col items-center justify-center">
                         <h3>Kalória</h3>
                         <p id="kaloria"></p>
                     </div>
-                    <div class="bg-purple rounded-[10px] py-4 w-[100px] flex items-center justify-center">
+                    <div class="bg-purple rounded-[10px] py-4 w-[100px] flex flex-col items-center justify-center">
                         <h3>Fehérje</h3>
                         <p id="feherje"></p>
                     </div>
-                    <div class="bg-red rounded-[10px] py-4 w-[100px] flex items-center justify-center">
+                    <div class="bg-red rounded-[10px] py-4 w-[100px] flex flex-col items-center justify-center">
                         <h3>Szénhidrát</h3>
                         <p id="szenhidrat"></p>
                     </div>
